@@ -1,2 +1,4 @@
-# cash-machine
-Este es el ejemplo de un cajero automático usando HTML y JS
+# Cajero Automático
+>Este es el ejemplo de un cajero automático usando HTML y JS.
+
+<img alt="Cash machine" src="cash-machine.png" width="300"/>
