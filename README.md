@@ -3,4 +3,4 @@
 
 <img alt="Cash machine" src="cash-machine.png" width="300"/>
 
-Por el momento solo se puede extraer dinero y consultar el saldo actual.
+Por el momento sólo se puede extraer dinero y consultar el saldo actual.
