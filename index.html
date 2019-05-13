@@ -3,16 +3,26 @@
     <head>
         <meta charset="utf-8" />
         <title>Cajero Automatico</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <p>
-            <img src="cajero.gif" />
+        <h1 class="title">Bienvenido!</h1>
+        <h3 class="description">En este cajero solo puede retirar billetes de las siguientes denominaciones: 100, 50, 20, 10 y 5</h3>
+        <figure class="atm">
+            <img class="atm-img" src="cajero.gif" height="450px"/>
+            <figure class="warning">
+                <img class="warning-img" src="./warning.png" alt="warning" height="80px">
+                <h6 class="warning-description">El propósito de este cajero (y la lógica en la que se basó), es entegarle la menor cantidad de billetes posibles.Por lo que habrán algunos casos muy particulares en que la respuesta no sesa la esperada.</h6>
+            </figure>
+        </figure>
+        <p class="opt-description">Seleccione la acción que desea realizar</p>
+        <p class="options"> 
+            <input class="opt-btn" type="button" value="Extraer" id="extraer"/>
+            <input class="opt-btn" type="button" value="Recargar" id="recargar"/>
+            <input class="opt-btn" type="button" value="Saldo" id="consultar_saldo"/>
+            <input class="opt-btn" type="button" value="Borrar" id="borrar"/>
         </p>
-        <p>
-            <input type="number" id="dinero" />
-            <input type="button" value="Extraer" id="extraer"/>
-            <input type="button" value="Saldo" id="consultar_saldo"/>
-        </p>
+        <input class="opt-number" type="number" id="dinero" />
         <p id="resultado"></p>
         <script src="cajero.js"></script>
     </body>
